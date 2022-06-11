@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+}
+h3{
+    font-family: 'Cardo', serif;
+}
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a, a:hover {
+    text-decoration: none;
+    color: black;
+}
+img {
+    vertical-align: middle;
+}
+:root {
+    --primary_color: #2b2e49;
+    --secondary_color: #5bc5f3;
+}
+/* common css end */
+
+/* Navigation Part Start  */
+.navigation-part{
+    background: var(--primary_color);
+}
+.navigation-part img{
+    max-width: 200px;
+}
+.navigation-part ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.navigation-part ul li a:hover{
+    color: white;
+}
+/* Navigation Part End  */
+
+/* Hero Part Start  */
+.hero-con{
+    position: relative;
+}
+.con-centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.con-centered h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+.con-centered p{
+    font-size: 22px;
+    padding-top: 20px;
+    text-align: center;
+}
+.hero-btn{
+    margin-top: 50px;
+}
+/* Hero Part End  */
+
+/* features part start  */
+.feat-con-main{
+    margin: 100px 0;
+}
+.feat-title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+.feat-con img{
+    padding-bottom: 30px;
+}
+.feat-text{
+    font-size: 14px;
+}
+/* features part end  */
+
+/* works part start  */
+.works-img{
+    padding: 1px;
+    position: relative;
+}
+.works-overlay{
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    /* background: rgba(255, 10, 10, 0.5); */
+    background: #e75351;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+}
+.works-overlay p{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
+.works-title{
+    font-weight: 600;
+}
+.works-img:hover .works-overlay{
+    visibility: visible;
+    opacity: 1;
+}
+/* works part end  */
+
+/* our team part start  */
+.team-con-main{
+    margin: 100px 0;
+}
+.team-con h4{
+    color: #2d3033;
+    margin-top: 40px;
+}
+.designation{
+    color: #e84545;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.team-con p{
+    font-size: 14px;
+}
+.team-icons ul li a{
+    color: #c6cacc;
+    border: 1px solid #c6cacc;
+    display: flex;
+    height: 35px;
+    width: 35px;
+    margin: 5px 5px 5px 0;
+    justify-content: center;
+    align-items:center;
+}
+/* our team part end  */
+
+/* testimonials part start  */
+.testi-bg{
+    background: #53354a;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 50px;
+}
+.testi-quotes p{
+    font-family: 'Cardo', serif;
+    padding: 10px 0;
+}
+.carousel-indicators button {
+    height: 8px !important;
+    width: 8px !important;
+    margin: 0 10px !important;
+    border-radius: 100%;
+    background-color: #fff !important;
+    position: relative;
+    top: 50px;
+}
+/* testimonials part end  */
+
+/* Download part start  */
+.download-part{
+    margin: 100px 0;
+}
+.download-con h4{
+    color: #555759;
+}
+.download-con p{
+    font-weight: 600;;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.dload-btn{
+    padding: 8px 50px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: none;
+    background: #e84545;
+    border: none;
+    color: #fff;
+}
+/* Download part end  */
+
+/* contact part start  */
+.contact-con-main{
+    background: #3a3e64;
+    padding: 50px;
+}
+.concatc-head{
+    color: #fff;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+.concatc-head h6{
+    font-weight: 700;
+}
+.contact-details p{
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+.contact-icons ul li a{
+    color: #fff;
+}
+/* contact part end  */
+
+/* footer part start  */
+footer{
+    background: #313454;
+    color: gray;
+    text-align: center;
+    padding: 30px 0;
+}
+footer p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+/* footer part end  */

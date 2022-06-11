@@ -1,0 +1,94 @@
+@media (max-width: 992px) {
+    .con-centered h1{
+        font-size: 2.3rem;
+        font-weight: 600;
+    }
+    .con-centered p{
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    .hero-btn{
+        margin-top: 20px;
+    }
+    .testi-bg{
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .con-centered h1{
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+    .con-centered p{
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .hero-btn{
+        margin-top: 20px;
+    }
+    .testi-bg{
+        padding: 30px;
+    }
+    .testi-quotes h3{
+        font-size: 20px;
+        padding:0;
+    }
+    .testi-quotes p{
+        font-size: 14px;
+        padding:0;
+        margin: 0;
+    }
+}
+@media (max-width: 576px) {
+    .con-centered h1{
+        font-size: 1.3rem;
+        font-weight: 500;
+
+    }
+    .con-centered p{
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    .hero-btn{
+        margin-top: 10px;
+    }
+    .testi-quotes h3{
+        font-size: 25px;
+        margin: 10px 0;
+    }
+    .testi-quotes p{
+        font-size: 14px;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .con-centered h1{
+        font-size: 13px;
+        padding: 5px 0;
+        margin-top: 3px;
+        margin-bottom: 0;
+    }
+    .con-centered p{
+        font-size: 8px;
+        padding: 0;
+        margin-top: 2px;
+    }
+    .hero-btn{
+        font-size: 8px;
+        padding: 5px 10px;
+        margin: 0;
+    }
+    .testi-bg{
+        padding: 30px;
+    }
+    .testi-quotes h3{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .testi-quotes p{
+        font-size: 12px;
+        margin: 10px 0;
+    }
+}
